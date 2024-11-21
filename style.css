@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(185,185,190);
+  padding: 0;
+  margin: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro,wght@0,200..90;1,200..900&display=swap')
+}
+
+.Headerbar {
+  color: rgba(230,230,230,1);
+  background-color: rgb(40,40,45);
+}
+.headerContent {
+ margin-left: 15%;
+ margin-right: 15%;
+ display: flex;
+ align-content:space-between;
+ justify-content: space-between;
+}
+.logo {
+  font-family: Source Code Pro;
+}
+.clickable {
+  display: flex; 
+  align-content: center;
+}
+
+.link {
+ margin-left: 50px;
+  align-self: center;
+  font-size: 24px;
+  font-family: Source Code Pro;
+  list-style-type: none;
+}
+
+
+.landingDiv {
+  display: flex;
+  background-image: url("assets/landing.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.heroimage {
+  object-fit: fill;
+  margin: auto;
+  height: 100%;
+  width: 100%;  
+}
+.herotext {
+  flex: 1;
+  margin; auto;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  align-self: center;
+}
+
+h2 {
+  font-size: 64px;
+  color: white;
+  font-family: Source Code Pro;
+}
+.aboutSec {
+  display: flex;
+  background-color: rgb(40,40,45);
+  margin-left: 15%; margin-right: 15%;
+  justify-content: center;
+}
+
+.aboutSecH {
+  flex-direction: column;
+  align-self: center;
+  margin-right: 5%;
+  color: white;
+  font-family: Source Code Pro;
+  font-size: 34px;
+} 
+.aboutSecC {
+  padding-top: 2%;
+  background-color: rgb(160,160,170);
+  padding-right: 10%;
+  padding-left: 5%;
+  font-family: Source Code Pro;
+  font-size: 24px;
+  color: white;
+}
